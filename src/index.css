@@ -11,6 +11,14 @@
 
 @layer components {
   .btn {
-    @apply text-base bg-skin-primary text-white px-4 py-2 rounded-lg font-bold uppercase;
+    @apply text-xs md:text-base hover:opacity-80 focus:outline-none px-4 py-2 rounded-lg font-bold uppercase transition-all duration-300;
+  }
+
+  .btn-primary {
+    @apply  bg-skin-primary text-white ;
+  }
+
+  .btn-outline-primary {
+    @apply border-2 border-skin-primary text-skin-primary hover:text-white hover:bg-skin-primary;
   }
 }

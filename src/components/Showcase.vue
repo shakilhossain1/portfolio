@@ -1,6 +1,50 @@
 <template>
-  <section class="h-96 bg-gradient-to-br from-skin-blue-light to-skin-blue-dark">
-    <h2 class="text-red-500">Hello world again</h2>
+  <section
+    class="
+      pb-6
+      min-h-[80vh]
+      container
+      flex flex-col
+      md:flex-row
+      md:items-center
+      md:justify-between
+    "
+  >
+    <div class="text-white md:order-last text-center">
+      <div class="relative w-[300px] mx-auto">
+        <img
+          src="../assets/person.jpg"
+          class="
+            object-cover
+            absolute
+            top-1/2
+            left-1/2
+            transform
+            translate-x-[-70%] translate-y-[-28%]
+            rounded-full
+            w-[150px]
+            h-[150px]
+          "
+          alt=""
+        />
+        <img src="../assets/shape.png" class="w-[300px]" alt="" />
+      </div>
+    </div>
+    <div class="text-center md:text-left mt-2 space-y-4 md:space-y-6">
+      <h2 class="text-white font-semibold text-3xl md:text-5xl">
+        Desing & <br />
+        Development
+      </h2>
+      <p class="text-sm text-gray-300 md:text-base">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique
+        cupiditate ipsum tempore totam accusantium tenetur quas labore aperiam
+        corporis magni?
+      </p>
+      <div class="flex w-[fit-content] mx-auto md:mx-0 space-x-2">
+        <button class="btn btn-primary">Hire Me </button>
+        <button class="btn btn-outline-primary">Contact Now</button>
+      </div>
+    </div>
   </section>
 </template>
 

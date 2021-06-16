@@ -1,6 +1,8 @@
 <template>
-  <app-header></app-header>
-  <showcase></showcase>
+  <div class="bg-gradient-to-br from-skin-blue-light to-skin-blue-dark">
+    <app-header></app-header>
+    <showcase></showcase>
+  </div>
 </template>
 
 <script setup>

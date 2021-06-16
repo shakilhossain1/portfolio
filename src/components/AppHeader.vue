@@ -1,5 +1,5 @@
 <template>
-  <header class="header bg-skin-blue-light text-white py-4">
+  <header class="text-white py-4">
     <nav class="container flex items-center justify-between">
       <logo></logo>
       <ul class="md:flex text-base font-semibold space-x-4 hidden">
