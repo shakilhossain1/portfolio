@@ -11,7 +11,7 @@
       >
         <img
           class="w-1/2 object-cover rounded-3xl"
-          src="/psd-to-html.jpg"
+          src="/img/psd-to-html.jpg"
           alt=""
         />
         <div class="pt-6">
