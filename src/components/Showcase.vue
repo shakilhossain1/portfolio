@@ -11,7 +11,7 @@
     "
   >
     <div class="text-white md:order-last text-center">
-      <div class="relative w-[300px] mx-auto">
+      <div class="relative w-[300px] lg:w-[500px] mx-auto">
         <img
           src="../assets/person.jpg"
           class="
@@ -24,13 +24,15 @@
             rounded-full
             w-[150px]
             h-[150px]
+            lg:w-[200px]
+            lg:h-[200px]
           "
           alt=""
         />
-        <img src="../assets/shape.png" class="w-[300px]" alt="" />
+        <img src="../assets/shape.png" class="w-full" alt="" />
       </div>
     </div>
-    <div class="text-center md:text-left mt-2 space-y-4 md:space-y-6">
+    <div class="text-center md:text-left mt-2 space-y-4 md:space-y-6 md:max-w-md">
       <h2 class="text-white font-semibold text-3xl md:text-5xl">
         Desing & <br />
         Development

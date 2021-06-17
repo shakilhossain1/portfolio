@@ -1,13 +1,16 @@
 <template>
-  <div class="bg-gradient-to-br from-skin-blue-light to-skin-blue-dark">
-    <app-header></app-header>
+  <header class="bg-gradient-to-br from-skin-blue-light to-skin-blue-dark">
+    <app-navigation></app-navigation>
+    <hr class="border-gray-300 opacity-30">
     <showcase></showcase>
-  </div>
+  </header>
+  <main>main content</main>
+  <footer>this is footer</footer>
 </template>
 
 <script setup>
 import HelloWorld from "./components/HelloWorld.vue";
-import AppHeader from "./components/AppHeader.vue";
+import AppNavigation from "./components/AppNavigation.vue";
 import Showcase from "./components/Showcase.vue"
 
 // This starter template is using Vue 3 experimental <script setup> SFCs
